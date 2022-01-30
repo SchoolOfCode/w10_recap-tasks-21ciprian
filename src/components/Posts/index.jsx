@@ -4,7 +4,6 @@ import Post from '../Post'
 
 function Posts() {
 	const [posts, setPosts] = useState(articles)
-	console.log(posts)
 	return (
 		<main>
 			{posts.map(post => {
