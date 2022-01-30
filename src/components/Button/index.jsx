@@ -1,7 +1,7 @@
 import React from 'react'
 
-function Button() {
-	return <button>Like</button>
+function Button({text}) {
+	return <button>{text}</button>
 }
 
 export default Button
