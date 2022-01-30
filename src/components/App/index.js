@@ -4,10 +4,10 @@ import './App.css'
 
 function App() {
 	return (
-		<main className='App'>
+		<section className='App'>
 			<Header />
 			<Posts />
-		</main>
+		</section>
 	)
 }
 

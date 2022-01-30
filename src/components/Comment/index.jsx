@@ -2,11 +2,10 @@ import React from 'react'
 
 function Comment({comment}) {
 	return (
-		<section>
-			Comment component
+		<React.Fragment>
 			<h4>{comment.name}</h4>
 			<p>{comment.text}</p>
-		</section>
+		</React.Fragment>
 	)
 }
 

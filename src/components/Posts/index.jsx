@@ -6,12 +6,11 @@ function Posts() {
 	const [posts, setPosts] = useState(articles)
 	console.log(posts)
 	return (
-		<section>
-			Posts
+		<main>
 			{posts.map(post => {
 				return <Post key={post.id} post={post} />
 			})}
-		</section>
+		</main>
 	)
 }
 
