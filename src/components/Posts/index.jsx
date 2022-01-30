@@ -1,7 +1,15 @@
-import React from 'react'
+import React, {useState} from 'react'
+import articles from '../../libs/articles'
+import Post from '../Post'
 
 function Posts() {
-	return <section>Posts</section>
+	const [posts, setPosts] = useState(articles)
+	return (
+		<section>
+			Posts
+			<Post />
+		</section>
+	)
 }
 
 export default Posts
