@@ -1,10 +1,11 @@
 import articles from '../../libs/articles'
+import Header from '../Header'
 import './App.css'
 
 function App() {
 	return (
 		<main className='App'>
-			<h1>WikiPigeon</h1>
+			<Header />
 			{articles.map(article => {
 				return (
 					<article key={article.id} className='post'>
