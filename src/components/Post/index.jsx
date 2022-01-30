@@ -1,12 +1,18 @@
 import React from 'react'
 import Button from '../Button'
+import Comments from '../Comments'
 
-function Post() {
+function Post({post}) {
+	console.log('post.paragraphs:', post.paragraphs)
 	return (
-		<div>
+		<article>
 			post component
+			{post.paragraphs.map(post => {
+				return <p key={post.id}>{post.text}</p>
+			})}
+			<Comments comments={post.comments} />
 			<Button />
-		</div>
+		</article>
 	)
 }
 
