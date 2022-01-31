@@ -1,11 +1,14 @@
 header {
 	display: flex;
 	justify-content: center;
-	background-image: linear-gradient(45deg, purple, rgb(20, 20, 233));
+	background-color: #1a3433;
 	width: 100%;
 	position: fixed;
+	top: 0;
+	z-index: 10;
+	box-shadow: 0 0 10px 5px black;
 }
 header h1 {
-	color: white;
+	color: #f0efef;
 	padding: 1.5rem;
 }

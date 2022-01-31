@@ -1,0 +1,19 @@
+.article {
+	background-color: #112b2c;
+	margin-bottom: 4rem;
+	color: #f0efef;
+	padding: 1rem;
+	transition: transform 0.5s ease;
+	border-radius: 1rem;
+	border: 3px solid #dad6d6;
+}
+article:hover {
+	box-shadow: 0 0 20px 10px #dad6d6;
+	transform: scale(1.01);
+}
+.article h2 {
+	text-align: center;
+	padding: 1rem;
+	color: #c5d936;
+	text-decoration: underline;
+}
