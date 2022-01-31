@@ -2,7 +2,6 @@ import React from 'react'
 import Button from '../Button'
 import Comments from '../Comments'
 import css from './Post.module.css'
-
 function Post({post}) {
 	return (
 		<article className={css.article}>

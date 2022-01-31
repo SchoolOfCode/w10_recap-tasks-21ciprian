@@ -1,10 +1,10 @@
 import Button from '@mui/material/Button'
 import React from 'react'
 import css from './Button.module.css'
-
-function ButtonComponent({text, handleClick}) {
+function ButtonComponent({text, handleClick, style}) {
 	return (
 		<Button
+			style={style}
 			variant='contained'
 			size='xs'
 			color='success'
