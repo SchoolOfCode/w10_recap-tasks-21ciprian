@@ -1,7 +1,11 @@
+import Button from '@mui/material/Button'
 import React from 'react'
-
-function Button({text}) {
-	return <button>{text}</button>
+function ButtonComponent({text}) {
+	return (
+		<Button variant='contained' size='xs' color='success'>
+			{text}
+		</Button>
+	)
 }
 
-export default Button
+export default ButtonComponent
