@@ -8,7 +8,11 @@ function Post({post}) {
 		<article className={css.article}>
 			<h2>{post.title}</h2>
 			{post.paragraphs.map(post => {
-				return <p key={post.id}>{post.text}</p>
+				return (
+					<p className={css.article__text} key={post.id}>
+						* {post.text}
+					</p>
+				)
 			})}
 			<Comments comments={post.comments} />
 			<Button text='Like 👍' />

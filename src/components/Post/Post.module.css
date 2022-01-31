@@ -17,3 +17,8 @@ article:hover {
 	color: #c5d936;
 	text-decoration: underline;
 }
+.article__text {
+	margin-bottom: 2rem;
+	line-height: 1.6rem;
+	/* padding: 2rem; */
+}
